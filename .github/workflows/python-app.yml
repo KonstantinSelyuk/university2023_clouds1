@@ -49,4 +49,4 @@ jobs:
     steps:
     - name: Fake deploy
       run: |
-        echo "\n\n\tJust message about deploy\n\n"
+        echo "### Just message about deploy! :rocket:"
