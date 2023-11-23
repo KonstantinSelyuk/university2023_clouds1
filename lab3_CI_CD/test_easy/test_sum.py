@@ -10,7 +10,7 @@ class TestSum(unittest.TestCase):
         """
         data = [1, 2, 3, 4]
         result = sum(data)
-        self.assertEqual(result, 11)
+        self.assertEqual(result, 10)
 
     def test_list_fraction(self):
         """
