@@ -47,4 +47,6 @@ jobs:
     needs: 'test_easy'
     runs-on: ubuntu-latest
     steps:
-    - name: \n\n\tJust message about deploy\n\n
+    - name: Fake deploy
+      run: |
+        echo "\n\n\tJust message about deploy\n\n"
