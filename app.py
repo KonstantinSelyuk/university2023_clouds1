@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 
+# this is for lab2
 def task5():
     today = datetime.today()
     days_to_saturday = (5 - today.weekday()) % 7
